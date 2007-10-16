@@ -13,6 +13,8 @@ requires:
   mod_perl2: 2
 build_requires:
   Apache::Test: 1.12
+recommends:
+  CSS::Minifier::XS: 0
 provides:
   Apache2::Filter::Minifier::CSS:
     file: lib/Apache2/Filter/Minifier/CSS.pm
