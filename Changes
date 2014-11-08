@@ -1,5 +1,8 @@
 Revision history for Perl extension Apache2::Filter::Minifier::CSS.
 
+1.06    Fri Nov  7 17:07 PST 2014
+    - Update tests to work with Apache-2.4.x series
+
 1.05    Fri Apr 23 22:25 PDT 2010
     - Switch to Git
 
