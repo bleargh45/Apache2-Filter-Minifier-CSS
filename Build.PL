@@ -54,6 +54,9 @@ $build_pkg->new(
         'Time::HiRes'           => 0,
         'perl'                  => '5.6.0',
         },
+    'test_requires'     => {
+        'File::Slurp'           => 0,
+        },
     'recommends'        => {
         'CSS::Minifier::XS'     => 0,
         },

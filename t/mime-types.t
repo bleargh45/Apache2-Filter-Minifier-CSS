@@ -4,7 +4,7 @@ use Apache::Test;
 use Apache::TestRequest;
 use Apache::TestUtil qw(t_cmp);
 use lib 't';
-use MY::slurp;
+use File::Slurp qw(slurp);
 
 # Test non-CSS responses when we've supplemented MIME-Types list
 plan tests => 2, need_lwp;

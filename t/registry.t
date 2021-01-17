@@ -4,7 +4,7 @@ use Apache::Test;
 use Apache::TestRequest;
 use Apache::TestUtil qw(t_cmp);
 use lib 't';
-use MY::slurp;
+use File::Slurp qw(slurp);
 
 # Test filtered ModPerl::Registry output
 plan tests => 4, need_lwp;
