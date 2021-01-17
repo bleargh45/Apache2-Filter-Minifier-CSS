@@ -18,6 +18,10 @@ use CSS::Minifier;
 eval { require CSS::Minifier::XS };
 
 ###############################################################################
+# Keep our namespace clean.
+use namespace::clean;
+
+###############################################################################
 # Version number.
 our $VERSION = '1.07';
 
