@@ -5,6 +5,8 @@ Revision history for Perl extension Apache2::Filter::Minifier::CSS.
     - Use File::Slurp, instead of a home-grown version
     - POD cleanups; EOLs, spelling
     - Namespace cleaned
+    - Add GitHub Actions CI workflow
+      - but only for Perl-5.20 and above
 
 1.06    Fri Nov  7 17:07 PST 2014
     - Update tests to work with Apache-2.4.x series
