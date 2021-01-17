@@ -121,6 +121,8 @@ sub handler {
 
 1;
 
+=for stopwords PerlVar minified minifier minification minifies minifying
+
 =head1 NAME
 
 Apache2::Filter::Minifier::CSS - CSS minifying output filter
