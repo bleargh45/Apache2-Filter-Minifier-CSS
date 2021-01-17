@@ -90,7 +90,7 @@ license as Perl itself.
 
 # SEE ALSO
 
-[CSS::Minifier](https://metacpan.org/pod/CSS%3A%3AMinifier),
-[CSS::Minifier::XS](https://metacpan.org/pod/CSS%3A%3AMinifier%3A%3AXS),
-[Apache2::Filter::Minifier::JavaScript](https://metacpan.org/pod/Apache2%3A%3AFilter%3A%3AMinifier%3A%3AJavaScript),
-[Apache::Clean](https://metacpan.org/pod/Apache%3A%3AClean).
+- [CSS::Minifier](https://metacpan.org/pod/CSS%3A%3AMinifier)
+- [CSS::Minifier::XS](https://metacpan.org/pod/CSS%3A%3AMinifier%3A%3AXS)
+- [Apache2::Filter::Minifier::JavaScript](https://metacpan.org/pod/Apache2%3A%3AFilter%3A%3AMinifier%3A%3AJavaScript)
+- [Apache::Clean](https://metacpan.org/pod/Apache%3A%3AClean)

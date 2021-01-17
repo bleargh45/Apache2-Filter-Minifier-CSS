@@ -213,9 +213,16 @@ license as Perl itself.
 
 =head1 SEE ALSO
 
-L<CSS::Minifier>,
-L<CSS::Minifier::XS>,
-L<Apache2::Filter::Minifier::JavaScript>,
-L<Apache::Clean>.
+=over
+
+=item L<CSS::Minifier>
+
+=item L<CSS::Minifier::XS>
+
+=item L<Apache2::Filter::Minifier::JavaScript>
+
+=item L<Apache::Clean>
+
+=back
 
 =cut
