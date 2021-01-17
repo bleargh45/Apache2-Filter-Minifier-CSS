@@ -191,7 +191,7 @@ Memory Cache
 
 =item handler($filter)
 
-CSS minification output filter. 
+CSS minification output filter.
 
 =back
 

@@ -72,7 +72,7 @@ CacheEnable mem /css/
 
 - handler($filter)
 
-    CSS minification output filter. 
+    CSS minification output filter.
 
 # AUTHOR
 
