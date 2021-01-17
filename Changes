@@ -1,6 +1,7 @@
 Revision history for Perl extension Apache2::Filter::Minifier::CSS.
 
-???
+{{$NEXT}}
+    - Switch to Dist::Zilla for release management
     - Use File::Slurp, instead of a home-grown version
 
 1.06    Fri Nov  7 17:07 PST 2014
