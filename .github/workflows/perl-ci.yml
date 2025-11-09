@@ -33,6 +33,9 @@ jobs:
       - name: Perl version
         run: perl -V
 
+      - name: DZil version
+        run: dzil --version
+
       - name: Build Apache
         run: |
           apt-get install -y libapr1 libapr1-dev libaprutil1 libaprutil1-dev
