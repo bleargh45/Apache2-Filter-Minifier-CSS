@@ -38,7 +38,7 @@ jobs:
 
       - name: Build Apache
         run: |
-          apt-get install -y libapr1 libapr1-dev libaprutil1 libaprutil1-dev
+          apt-get install -y wget libapr1 libapr1-dev libaprutil1 libaprutil1-dev
           wget --no-verbose $APACHE_RELEASE
           tar -xzf httpd-*.tar.gz
           cd httpd*/
@@ -131,7 +131,7 @@ jobs:
 
       - name: Build Apache
         run: |
-          apt-get install -y libapr1 libapr1-dev libaprutil1 libaprutil1-dev
+          apt-get install -y wget libapr1 libapr1-dev libaprutil1 libaprutil1-dev
           wget --no-verbose $APACHE_RELEASE
           tar -xzf httpd-*.tar.gz
           cd httpd*/
