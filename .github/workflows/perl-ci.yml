@@ -27,7 +27,7 @@ jobs:
       - name: Setup GitHub user
         run: |
           apt-get update
-          apt-get install -y sudo
+          apt-get install -y sudo adduser
           adduser --uid 1001 github
 
       - name: Perl version
@@ -126,7 +126,7 @@ jobs:
       - name: Setup GitHub user
         run: |
           apt-get update
-          apt-get install -y sudo
+          apt-get install -y sudo adduser
           adduser --uid 1001 github
 
       - name: Build Apache
